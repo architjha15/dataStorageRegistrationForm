@@ -39,7 +39,7 @@ const Students = mongoose.model("students", studentEntry);
 
 app.post("/register", async (req, res) => {
   const { enrollmentNo, firstName, lastName, mobileNo } = req.body;
-  if (!enrollmentNo || !firstName || !lastName || !mobileNo) {
+  if (!enrollmentNo || !firstName || !mobileNo) {
     res.status(400).json({ msg: "Some required feild is empty!" });
   }
   try {
