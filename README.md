@@ -5,8 +5,10 @@ This registration page allows users to submit their Enrollment Number, First Nam
 ![image](https://github.com/user-attachments/assets/36e3c2aa-65f4-424b-9bb0-b42e462ba7c1)
 
 #Output (Backend)
-![image](https://github.com/user-attachments/assets/3d77c6e0-7c9c-490e-9238-af7fcac9863b)
+![image](https://github.com/user-attachments/assets/912a02d6-bd56-4b68-99c3-e689fa0c3899)
+
 
 #console Screen
 
-![image](https://github.com/user-attachments/assets/78052096-1d6b-420d-a207-b5f433bbc9ca)
+![image](https://github.com/user-attachments/assets/37957529-768b-4673-ad1d-1ecfc0d94ae7)
+
