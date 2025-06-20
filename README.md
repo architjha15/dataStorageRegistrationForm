@@ -1,2 +1,2 @@
-# dataStorageRegistrationForm
-This student registration page collects enrollment details via a responsive form and stores them in MongoDB using a Node.js and Express backend. Data is sent using fetch(), and a success toast appears on submission without reloading the page.
+# Student Regisitration Form
+This registration page allows users to submit their Enrollment Number, First Name, Last Name, and Mobile Number through a clean and responsive web form. When the user clicks the submit button, the form data is sent to a backend server using JavaScript's fetch() function. The server, built with Node.js, Express, and MongoDB, securely stores the submitted data in a database. A success message (toast) is displayed after submission, giving the user instant feedback without reloading the page.
