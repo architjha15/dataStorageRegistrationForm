@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="form-container">
+        <div class="toast" id="toast">Form submitted successfully!</div>
+
+        <h2>Register Now</h2>
+
+        <form id="registrationForm" method="post">
+            <div class="form-group">
+                <input type="text" id="enrollment" name="enrollmentNo" placeholder=" " required />
+                <label for="enrollment">Enrollment Number</label>
+            </div>
+
+            <div class="form-group">
+                <input type="text" id="firstname" name="firstName" placeholder=" " required />
+                <label for="firstname">First Name</label>
+            </div>
+
+            <div class="form-group">
+                <input type="text" id="lastname" name="lastName" placeholder=" " />
+                <label for="lastname">Last Name</label>
+            </div>
+
+            <div class="form-group">
+                <input type="tel" id="mobile" name="mobileNo" placeholder=" " pattern="[0-9]{10}" required />
+                <label for="mobile">Mobile Number</label>
+            </div>
+
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
