@@ -30,6 +30,9 @@ const studentEntry = new mongoose.Schema({
     type: String,
     required: true,
   },
+},
+{
+  timestamps: true,
 });
 
 const Students = mongoose.model("students", studentEntry);
